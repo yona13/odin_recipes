@@ -5,15 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Foundations - Recipes Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9c11ce4a9b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <ul class="toolbar">
+        <li class="nav">
+            <a href="./index.html"><i class="fa-solid fa-kitchen-set"></i></a>
+        </li>
+        <li class="dropdown">
+            <a href="./index.html" class="dropbutton">Recipes</a>
+            <div class="dropcontent">
+                <a href="./recipes/lasagna.html">Vege-Lasagna</a>
+                <a href="./recipes/carrot_cake.html">Carrot Cake</a>
+                <a href="./recipes/moussaka.html">Eggplant Moussaka</a>
+                <a href="./recipes/cookies.html">Choc-Chip Cookies</a>
+            </div>
+        </li>
+    </ul>
     <h2>Favourites</h2>
     <ol>
-        <li><a href="./recipes/lasagna.html">Vege-Lasagna</a></li>
-        <li><a href="./recipes/carrot_cake.html">Carrot Cake</a></li>
-        <li><a href="./recipes/moussaka.html">Eggplant Moussaka</a></li>
-        <li><a href="./recipes/cookies.html">Choc-Chip Cookies</a></li>
+        <li><a href="./recipes/lasagna.html" class="commonlist">Vege-Lasagna</a></li>
+        <li><a href="./recipes/carrot_cake.html" class="commonlist">Carrot Cake</a></li>
+        <li><a href="./recipes/moussaka.html" class="commonlist">Eggplant Moussaka</a></li>
+        <li><a href="./recipes/cookies.html" class="commonlist">Choc-Chip Cookies</a></li>
     </ol>
 </body>
 </html>
